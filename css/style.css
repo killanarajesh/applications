@@ -1,0 +1,68 @@
+
+.parent{
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: row;
+ border-radius: 2%;
+
+
+}
+
+  .children{
+border: 3px solid red;
+ padding: 10%;
+ width: 25%;
+ margin: 2%;
+ text-align: center;
+}
+.child{
+width: 25%;
+text-align: center;
+  padding: 10%;
+
+  border: 3px solid red;
+margin: 2%;
+
+}
+img
+{
+  width: 60%;
+  align:center;
+  border-radius: 75%;
+}
+@media only screen and (min-width:320px) and (max-width:440px){
+.parent{
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: column;
+ border-radius: 2%;
+ width: 100%;
+
+}
+
+  .children{
+border: 3px solid red;
+ padding: 10%;
+ width: 70%;
+ margin: 2%;
+ text-align: center;
+}
+.child{
+width: 70%;
+text-align: center;
+
+  padding: 10%;
+  border: 3px solid red;
+margin: 2%;
+background-color: skyblue;
+}
+img
+{
+width:60%;
+  align:center;
+  border-radius: 100%;
+}
+a{
+  word-wrap: break-word;
+
+}}
