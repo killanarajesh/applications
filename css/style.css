@@ -11,12 +11,12 @@
   .children{
 border: 3px solid red;
  padding: 10%;
- width: 25%;
+ width: 50%;
  margin: 2%;
- text-align: center;
+
 }
-.child{
-width: 25%;
+.childone{
+width: 50%;
 text-align: center;
   padding: 10%;
 
@@ -41,20 +41,67 @@ img
 }
 
   .children{
+border: 3px solid #04B486;
+ padding: 10%;
+ width: 70%;
+ margin: 2%;
+ background-color: #CEF6F5;
+
+ text-align: center;
+}
+.childone{
+width: 70%;
+text-align: center;
+
+  padding: 10%;
+  border: 3px solid #04B486;
+margin: 2%;
+background-color: #CEF6F5;
+}
+img
+{
+width:60%;
+  align:center;
+  border-radius: 100%;
+}
+a{
+  word-wrap: break-word;
+
+}}
+
+
+@media only screen and (min-width:760px) and (max-width:1080px){
+.parent{
+  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+ border-radius: 2%;
+ width: 100%;
+
+}
+.heading
+{
+  color: #FFFFFF;
+}
+
+a{
+  color: #FFFFFF;
+}
+  .children{
 border: 3px solid red;
  padding: 10%;
  width: 70%;
  margin: 2%;
  text-align: center;
 }
-.child{
+.childone{
 width: 70%;
 text-align: center;
 
   padding: 10%;
   border: 3px solid red;
 margin: 2%;
-background-color: skyblue;
+background-color: blue;
 }
 img
 {
