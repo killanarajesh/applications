@@ -9,7 +9,7 @@
 }
 
   .children{
-border: 3px solid red;
+border: 3px solid #ff7733;
  padding: 10%;
  width: 50%;
  margin: 2%;
@@ -17,7 +17,6 @@ border: 3px solid red;
 }
 .childone{
 width: 50%;
-text-align: center;
   padding: 10%;
 
   border: 3px solid red;
@@ -47,11 +46,11 @@ border: 3px solid #04B486;
  margin: 2%;
  background-color: #CEF6F5;
 
- text-align: center;
+
 }
 .childone{
 width: 70%;
-text-align: center;
+
 
   padding: 10%;
   border: 3px solid #04B486;
@@ -72,7 +71,7 @@ a{
 
 @media only screen and (min-width:760px) and (max-width:1080px){
 .parent{
-  border: 5px solid red;
+  border: 5px solid #ff9999;
   display: flex;
   flex-direction: column;
  border-radius: 2%;
@@ -93,15 +92,17 @@ border: 3px solid red;
  width: 70%;
  margin: 2%;
  text-align: center;
+ background-color: #ffc299;
+ }
 }
 .childone{
 width: 70%;
 text-align: center;
 
   padding: 10%;
-  border: 3px solid red;
+  border: 3px solid #ff7733;
 margin: 2%;
-background-color: blue;
+background-color: #ffc299;
 }
 img
 {
